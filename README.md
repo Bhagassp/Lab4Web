@@ -54,8 +54,8 @@ switch ($mod) {
 ```
 
 ### Sekarang cara mengaksesnya menjadi:
-- Halaman View (http://localhost/LabWeb/Lab4Web/view)
-- Halaman Tambah Barang (http://localhost/LabWeb/Lab4Web/tambah)
+- Halaman View (http://localhost/Lab4Web/view)
+- Halaman Tambah Barang (http://localhost/Lab4Web/tambah)
 
 ![View](ss/view.png)
 
