@@ -59,8 +59,10 @@ switch ($mod) {
 
 ![View](ss/view.png)
 
-# Tambahan (+)
-- Buat file baru dengan nama `error.php`, kemudian tambahkan kode berikut.
+# Add-on
+- Kita akan membuat file bernama `error.php`.
+
+### Code :
 
 ```html
 <!DOCTYPE html>
@@ -95,7 +97,7 @@ switch ($mod) {
 </html>
 ```
 
-- File tersebut berfungsi untuk menampilkan halaman error ketika pengguna salah memasukan query string.
+- File tersebut berfungsi menampilkan halaman error ketika pengguna salah memasukan query string.
 
 ![Error](ss/error.png)
 
