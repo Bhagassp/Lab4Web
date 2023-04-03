@@ -13,7 +13,7 @@
 
 # Langkah-langkah Praktikum 
 - Melanjutkan pertemuan 3, namun disini kita akan menambahkan Routing.
-- Langkah pertama, rename `index.php` menjadi `view.php` di pertemuan sebelumnya.
+- Rename `index.php` menjadi `view.php` di pertemuan sebelumnya.
 - Kemudian buat file baru dengan nama `index.php`, lalu masukan kode berikut.
 
 ```php
@@ -38,7 +38,7 @@ switch ($mod) {
 
 - Langkah awal yang harus disiapkan adalah aktivasi mod_rewrite pada Web Server Apache2 pada configurasi httpd.conf.
 
-![Aktifasi](img/aktivasi_mod.png)
+![Aktifasi](ss/aktivasi_mod.png)
 
 - Aktifkan LoadModule mod_rewrite dengan cara melakukan un-comment pada baris tersebut, kemudian restart Apache2.
 - Langkah berikutnya adalah membuat file baru dalam folder Lab4Web dengan nama `.htaccess`, kemudian masukan kode berikut.
@@ -57,7 +57,7 @@ switch ($mod) {
 - Halaman View (http://localhost/LabWeb/Lab4Web/view)
 - Halaman Tambah Barang (http://localhost/LabWeb/Lab4Web/tambah)
 
-![View](img/view.png)
+![View](ss/view.png)
 
 # Tambahan (+)
 - Buat file baru dengan nama `error.php`, kemudian tambahkan kode berikut.
@@ -97,6 +97,6 @@ switch ($mod) {
 
 - File tersebut berfungsi untuk menampilkan halaman error ketika pengguna salah memasukan query string.
 
-![Error](img/error.png)
+![Error](ss/error.png)
 
 # Terima Kasih!
